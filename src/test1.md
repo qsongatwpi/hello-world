@@ -6,6 +6,8 @@ latex does not work for md in subfolder
 
 url link works in subfolder:
 [google](https://www.google.com)
+latex with dollar sign works:
+$$\alpha, \int_{a}^{b} f(x) \, dx$$
 
-$$\alpha$$
+$\int_{a}^{b} f(x) \, dx$
 
