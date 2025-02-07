@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\title{AMS Math Example}
+\author{Your Name}
+\date{\today}
+
+%\maketitle
+
+\begin{itemize}
+    \item There are two main results: Proposition~3 for Log utility and Proposition~7 for power utility. In both cases, the Nash equilibrium is defined among constant strategies, which is not clear from Definition~1. For instance, let $V_i = ESR_i$, then 
+    $$ V_i (\bar \pi_i, \bar \pi_j) \ge V_i(\pi_i, \bar \pi_j) \quad \forall \pi_i = \text{constant},$$ 
+    which may not be true when $\pi_i$ is a stochastic process.
+    \item The statement about the objective functions 
+    (5) and (6) is confusing. 
+    We consider both objective functions (5) and (6) separately in Proposition~3 and Proposition~7. 
+    Initially, I thought that we only consider (5) and 
+    (6) is just a special case of (5) with $\gamma_i \to 1$, by arguing that
+    %$V_i^{\gamma_i} = ESR_i$ with $\gamma_i \neq 1$,
+    $$ESR_i := V_i^{\gamma_i} \to \lim_{T\to \infty} \frac{1}{T} \mathbb{E} \ln F_{iT},
+    \text{ as } \gamma_i \to 1,$$
+    which is not the case.
+    \item Should we add $F_{i0}$ for (4)?
+    \item The paragraph after (7), especially the sentence beginning with "Notice that ...", is not clear. 
+    \item Definition~6 is a bit hard to understand.
+\end{itemize}
+
+\end{document}
